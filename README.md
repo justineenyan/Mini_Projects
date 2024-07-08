@@ -1,4 +1,5 @@
-# Password_Generator
+# Mini Projects using Python and Django
+#Password Generator
 Generates a password according to User's Criteria
 
 #Weather App
