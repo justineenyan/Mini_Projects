@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Hosting Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>File Hosting Dashboard</h1>
+
+  <nav>
+    <ul>
+      <li><a href="#">Upload Files</a></li>
+      <li><a href="#">Manage Files</a></li>
+      <li><a href="#">Account Settings</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="storage-summary">
+      <h2>Storage Summary</h2>
+      <p>Used: 1 GB (20%)</p>
+      <p>Available: 4 GB (80%)</p>
+      <progress value="20" max="100"></progress>
+      <button id="upgrade-storage">Upgrade Storage</button>
+    </section>
+
+    <section class="recent-files">
+      <h2>Recent Files</h2>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Files">
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Filename</th>
+            <th>Size</th>
+            <th>Uploaded</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>report.pdf</td>
+            <td>5 MB</td>
+            <td>2024-04-17</td>
+            <td>
+              <a href="#">Download</a>
+              <a href="#">Delete</a>
+              <a href="#">Share</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="load-more">Load More</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

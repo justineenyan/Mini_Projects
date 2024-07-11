@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drift</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" type="image/x-icon" href="..\..\images\Icons\icons8-wheel-32.png">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../images/Icons/icons8-wheel-32.png" alt="" height="32px">
+        </div>
+        <ul class="menu">
+            <li class="active">
+                <a href="../Dashboard/dashboard.html">
+                    <img  src="../images/Dashboard/dash.png" height="14px">
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="../Homepage/Homepage.html">
+                    <img  src="../images/Dashboard/home.png" height="14px">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="dashboard_drive.html">
+                    <img  src="../images/Dashboard/drive.png" height="14px">
+                    <span>My drive</span>
+                </a>
+            </li>
+            <li>
+                <a href="../Dashboard/dashboard_history.html">
+                    <img  src="../images/Dashboard/recent.png" height="14px">
+                    <span>History</span>
+                </a>
+            </li>
+            <li>
+                <a href="../Dashboard/dashboard_bin.html">
+                    <img  src="../images/Dashboard/recycling-bin.png" height="14px">
+                    <span>Bin</span>
+                </a>
+            </li>
+            <!-- 
+
+                <li>
+                    <a href="../Dashboard/dashboard_storage.html">
+                        <img  src="../images/Dashboard/storage.png" height="14px">
+                        <span>Storage</span>
+                    </a> <br>
+                    <!-
+                        <p>0gb/10gb</p>
+                        <progress class="progress" value="0" max="100"></progress>
+                        <!- <button id="upgrade-storage">Upgrade Storage</button> ->
+                    ->
+                </li>
+                <li>
+                    <a href="../Dashboard/dashboard_settings.html">
+                        <img  src="../images/Dashboard/settings (1).png" height="15px">
+                        <span>Settings</span>
+                    </a>
+                </li>
+            -->
+                <li class="logout">
+                <a href="../SignIn/SignIn.html">
+                    <img  src="../images/Dashboard/logout.png" height="14px">
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <!--<span>Drift</span>-->
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user-info">
+                <div class="search-box">
+                    <a href="#">
+                        <img src="../images/Dashboard/search.png" alt="image here" height="15px">
+                    </a>
+                    <input type="search" placeholder="Search">
+                </div>
+            </div>
+        </div>
+        <!--Body-->
+        <div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card while">
+                        <div class="card-content blue-text text-darken-2">
+                            <span class="card-title">Welcome, User</span>
+                            <p>This is your dashboard</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="../Homepage/Homepage.html">Check out our home page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card white">
+                        <div class="card-content blue-text text-darken-2">
+                                <span class="card-title"> <i class="material-icons">cloud</i> Storage</span>
+                            <br>
+                            <div class=" green">
+                                <div class="progress blue-grey lighten-5">
+                                    <div class="determinate" style="width: 40%"></div>
+                                </div>
+                            </div>
+                            <p>20 GB Free of 50 GB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+
+                <div class="row">
+                    <div class="col s12 ">
+                        <div class="card while">
+                            <div class="card-content blue-text text-darken-2">
+                                <span class="card-title">Recent Files</span>
+                                <table class="black-text striped highlight">
+                                    <thead>
+                                  <tr>
+                                      <th>Filename</th>
+                                      <th>Size</th>
+                                      <th>Uploaded</th>
+                                      <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recent-files-table">
+                                    <tr>
+                                        <td>report.pdf</td>
+                                        <td>5 MB</td>
+                                        <td>2024-04-17</td>
+                                        <td>
+                                            <a href="#"><i class="material-icons">file_download</i></a>
+                                            <a href="#"><i class="material-icons">delete</i></a>
+                                            <a href="#"><i class="material-icons">share</i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            
+            
+            <!--
+                <section class="recent-files">
+                    <h2>Recent Files</h2>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search Files">
+                    </div>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Filename</th>
+                                <th>Size</th>
+                                <th>Uploaded</th>
+                                <th>Actions</th>
+                            </tr>
+                  </thead>
+                  <tbody id="recent-files-table">
+                      <tr>
+                          <td>report.pdf</td>
+                          <td>5 MB</td>
+                          <td>2024-04-17</td>
+                          <td>
+                              <a href="#">Download</a>
+                              <a href="#">Delete</a>
+                              <a href="#">Share</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        -->
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

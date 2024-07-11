@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+
+    <style>
+        div{
+            border: 2px solid black;
+        }
+        @keyframes scrollText{
+            0%{
+                transform: translateX(100%);
+            }
+            100%{
+                transform: translateX(-100%);
+            }
+        }
+        h3{
+            background-color: gray;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="overflow: hidden; white-space: nowrap;">
+        <h3 style="display: inline-block; animation: scrollText 10s linear infinite;">A short story about me</h3>
+        <p style="margin-top: 20px;">My name is Justine Enyan</p>
+        <p style="margin-top: 20px;">3rd year computer science major </p>
+        <p style="margin-top: 20px;">Like to watch chinese drama in my spare time</p>
+        <p style="color:purple;"><b>C is my favorite</b></p>
+    </div>
+</body>
+</html>

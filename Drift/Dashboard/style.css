@@ -1,0 +1,86 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Main content area styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex: 1 1 auto; /* Makes sections flexible and take up equal space */
+  }
+  
+  /* Storage summary section styles */
+  .storage-summary progress {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .storage-summary button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Recent files section styles */
+  .recent-files table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-files th,
+  .recent-files td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .recent-files .search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .recent-files .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }

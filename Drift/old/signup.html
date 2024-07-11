@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 00px;
+            padding: 0;
+        }
+        .form-container{
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+        form{
+         
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width:40%;
+            padding:20px;
+            margin:60px;
+        }
+        label{
+            display:inline-block;
+            width: 80px;
+            font-weight: bold;
+        }
+        .gender{
+            width:50px
+        }
+            
+        .btn{
+            display: inline;
+            padding:10px 20px;
+            background-color: #333;
+            color: #fff;
+            border:none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        input[type="radio"],
+        input[type="checkbox"]{
+        margin-right: 0px;
+        }
+        input[type="submit"]{
+        background-color: #333;
+        color: #fff;
+        border: black;
+        }
+        .btn:hover{
+            color: #cfc5c5;
+        }
+        label[for="gender"]{
+            width:60px
+        }
+        label[for="dob"]{
+            width:40px
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Drift</h1>
+    <form action="http://www.drift.com/signup.php" method="post">
+        <fieldset>  
+        <legend style="text-align: center; color:aqua">Sign up for free</legend>        
+        <p>
+           <label for="fullName">User Name:</label>
+           <input type="text" name="fullName" placeholder="Osei Michael" required="required" />
+        </p>
+
+        <p>
+           <label for="gender">Gender:</label>
+           <input type="radio" name="gender" value="male" required="required">
+           <label for="gender">Male</label>
+           <input type="radio" name="gender" value="female">
+           <label for="gender">Female</label>
+        </p>
+
+        <p>
+           <label for="dob">Date of birth:</label>
+           <input type="date" name="dob">
+        </p>
+
+        <p>
+           <label>Country:
+            <input type="text" name="country" placeholder="Ghana">
+           </label>
+        </p>
+           
+        <p>
+           <label>Phone No:
+            <input type="text" name="phoneNo" placeholder="0554219645" required="required">
+           </label>
+        </p>
+
+        <p>
+           <label>
+            Email:
+            <input type="text" name="email" placeholder="drift@gmail.com" required="required">
+           </label>
+        </p>
+
+        <p>
+           <label for="passWord">Password:</label>
+           <input type="password" name="passWord" required="required">
+        </p>
+
+        <p>
+           <label for="passWord">Confirm Password:</label>
+           <input type="password" name="passWord" required="required">
+        </p>
+          
+        <P>
+           <label for="terms">Agree terms and conditions</label>
+           <input type="checkbox" name="terms">
+        </P>
+
+           <input type="submit" value="Submit">
+    <b>
+        <p style="color:aqua">
+            Already have an account?
+        </p>
+    </b>       
+           <a href="signin.html" class="btn">Login</a>
+       
+        </fieldset>
+    </form>
+</div>
+
+    
+</body>
+</html>
