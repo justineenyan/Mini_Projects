@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|c:\\users\\energy\\documents\\vb_project\\browser_1\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|c:\\users\\energy\\documents\\vb_project\\browser_1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|c:\\users\\energy\\documents\\vb_project\\browser_1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{DF31C172-EEA9-4290-B266-9F05B7F70A33}|browser_1.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.Designer.vb",
+              "RelativeToolTip": "Form1.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-03T06:20:41.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.resx",
+              "RelativeDocumentMoniker": "Form1.resx",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.resx",
+              "RelativeToolTip": "Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-03T06:20:35.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form2.vb",
+              "RelativeToolTip": "Form2.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T18:33:41.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form2.vb [Design]",
+              "RelativeToolTip": "Form2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T18:28:11.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-31T11:53:32.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\ENERGY\\Documents\\vb_project\\browser_1\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-31T14:19:42.269Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\bin\Debug\net8.0-windows\Web_Browser.exe
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\bin\Debug\net8.0-windows\Web_Browser.deps.json
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\bin\Debug\net8.0-windows\Web_Browser.runtimeconfig.json
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\bin\Debug\net8.0-windows\Web_Browser.dll
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\bin\Debug\net8.0-windows\Web_Browser.pdb
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.Form1.resources
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.vbproj.GenerateResource.cache
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.AssemblyInfoInputs.cache
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.AssemblyInfo.vb
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.vbproj.CoreCompileInputs.cache
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.dll
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\refint\Web_Browser.dll
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.pdb
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.genruntimeconfig.cache
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\ref\Web_Browser.dll
+C:\Users\ENERGY\Documents\vb_project\Web_Browser\obj\Debug\net8.0-windows\Web_Browser.Resources.resources
